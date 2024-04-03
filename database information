@@ -1,3 +1,5 @@
+To connect the web to database, move the folder "ERP" to xampp > htdocs. Then create the database in MySQL
+
 database name : crudsystems
 
 tables: 
