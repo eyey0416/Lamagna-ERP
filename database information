@@ -1,0 +1,42 @@
+database name : crudsystems
+
+tables: 
+crudtable
+customer
+inventory
+sales
+tasks
+
+crudtable columns:
+id
+name
+lastName
+email
+pass
+
+customer columns:
+id
+customerName
+mobileNumber
+email
+paymentTerms
+purchaseDate
+
+inventory columns:
+id
+itemName
+itemCategory
+specification
+
+sales columns:
+id 
+itemName
+quantitySold
+stocksLeft
+totalIncome
+
+tasks columns:
+id
+task
+completed
+created_at
