@@ -1,0 +1,683 @@
+/* Global Styles */
+body {
+    background-image: url('bg.jpg');
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    text-align: left;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+nav {
+    background-color: #abc4ff;
+    padding: 10px;
+}
+
+.dash-h3 {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.heading-image {
+    width: 30px;
+    height: 30px;
+}
+
+.login-container {
+    width: 400px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.login-container h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"],
+#login-form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#login-form button {
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#login-form button:hover {
+    background-color: #555;
+}
+
+#login-form input:focus,
+#login-form button:focus {
+    outline: none;
+    border-color: #555;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #7b7b7b;
+}
+
+/* Navigation Styles */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 15px;
+    padding-left: 3px;
+}
+
+/* Link Styles */
+li {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+a img {
+    width: 20px;
+}
+
+.move-right {
+    margin-left: 950px;
+}
+
+
+.account {
+    justify-content: flex-start
+}
+
+/* Search Input Styles */
+.navigation input[type="text"] {
+    padding: 5px;
+    padding-right: 30px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin-left: 1050px;
+}
+
+/* Search Button Styles */
+.navigation button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: mediumseagreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inventory-container {
+    margin: 40px;
+    background-color: white;
+}
+
+/* Table Container Styles */
+.table-container {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table Header and Cell Styles */
+table th,
+table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Table Header Styles */
+table th {
+    background-color: #b6ccfe;
+}
+
+/* Image Styles */
+table img {
+    max-width: 100px;
+    height: auto;
+}
+
+a[href^="mailto"] {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Current Page Styles */
+.current-page a {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+/* Container Styles */
+.info {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #b6ccfe;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 20px;
+}
+
+.basic-info h3,
+.contact-info h3,
+.address h3 {
+    color: #757bc8;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.basic-info p,
+.contact-info p,
+.address p {
+    margin-bottom: 5px;
+}
+
+/* Container styles */
+.container2 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #757bc8;
+    border-radius: 10px;
+}
+
+/* Form styles */
+form {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Responsive styles */
+@media (max-width: 400px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    .move-right {
+        margin-top: 10px;
+        float: right;
+    }
+}
+
+/* Pending Styles */
+.pending-item {
+    margin: 10px;
+    font-size: 15px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-transform: capitalize;
+}
+
+.remove-btn {
+    margin-left: 10px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.todo-container {
+    margin: 10px;
+    font-size: 18px;
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 200px;
+    width: 100px;
+}
+
+#pending-items {
+    display: flex;
+    flex-direction: column;
+}
+
+#pending-items li {
+    border-bottom: 1px solid #ccc;
+}
+
+.pending-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #b6ccfe;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#new-item-text {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.pending {
+    margin-top: 20px;
+}
+
+.pending input[type="text"] {
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.squares-container {
+    justify-content: center;
+    display: flex;
+    margin-top: 25px;
+}
+
+/* Ensure container-fluid spans the full width */
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Create gutters between columns */
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* Define column widths for medium-sized screens */
+.col-md-3,
+.col-md-6 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Define column widths for medium-sized screens for specific columns */
+.col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting up basic styles */
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
+
+.container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.heading-with-image {
+    display: flex;
+    align-items: center;
+    /* Align items vertically */
+}
+
+.heading-with-image img {
+    margin-right: 10px;
+    /* Adjust the margin as per your preference */
+    width: 30px;
+}
+
+.income {
+    width: 100px;
+    height: auto;
+    margin-left: 80px;
+}
+
+.target-image {
+    width: 90px;
+    /* Adjust width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.row1,
+.row2 {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-md-3,
+.col-md-6 {
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* Gray border */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for background color */
+}
+
+
+.col-md-3:hover,
+.col-md-6:hover {
+    background-color: #f0f0f0;
+    /* Change background color on hover */
+}
+
+.col-md-3 {
+    flex: 0 0 30%;
+    /* 30% width */
+}
+
+.col-md-6 {
+    flex: 0 0 60%;
+    /* 60% width */
+}
+
+/* Style specific to h2 and h5 elements within the provided HTML structure */
+.row1 h2,
+.row2 h2,
+.row1 h1,
+.row2 h1 {
+    /* Add your styles for h2 and h5 here */
+    color: #333;
+    /* Example color */
+    font-size: 15px;
+    /* Example font size */
+
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+
+    .row1,
+    .row2 {
+        flex-wrap: wrap;
+    }
+
+    .col-md-3,
+    .col-md-6 {
+        flex-basis: 100%;
+    }
+}
+
+
+
+.warning {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* CSS for form elements */
+
+/* Input fields */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Submit button */
+.submit-button {
+    width: 100%;
+    background-color: #333;
+    /* Adjusted color to match your existing button style */
+    color: #fff;
+    /* White text color */
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hyperlinks */
+.link {
+    color: #abc4ff;
+    /* Adjusted color to match your existing link style */
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Error message */
+.error-message {
+    color: #721c24;
+    /* Adjusted color to match your existing warning color */
+    margin-top: 10px;
+}
+
+/* Success message */
+.success-message {
+    color: #155724;
+    /* Adjusted color to match your existing success color */
+    margin-top: 10px;
+}
+
+/* Style for the form container */
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the form title */
+.form .title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style for form input fields */
+.form input[type="text"],
+.form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style for the login button */
+.form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect for the login button */
+.form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the link to sign up */
+.form a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Style for the todo list container */
+.todo-list-container {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin-top: 20px; /* Add some spacing from the top */
+}
+
+/* Style for each todo list item */
+.todo-list-container li {
+    margin-bottom: 10px; /* Add spacing between each item */
+    border: 1px solid #ccc; /* Add border around each item */
+    padding: 10px; /* Add padding inside each item */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+/* Style for the input field within each todo list item */
+.todo-list-container li input[type="text"] {
+    width: 200px; /* Adjust width as needed */
+    padding: 5px; /* Add padding */
+    margin-right: 10px; /* Add spacing between input and button */
+}
+
+/* Style for the submit button within each todo list item */
+.todo-list-container li button[type="submit"] {
+    padding: 5px 10px; /* Add padding */
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 3px; /* Add rounded corners */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+/* Style for the link within each todo list item */
+.todo-list-container li a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none; /* Remove underline */
+    margin-left: 10px; /* Add spacing between text and link */
+}
+
+/* Style for the link within each todo list item on hover */
+.todo-list-container li a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
+
+.custom-submit-button {
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    
+}
+
+.custom-submit-button:hover {
+    background-color: #333;
+
+}
+

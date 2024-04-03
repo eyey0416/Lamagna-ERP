@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - ERP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h2 class="heading-with-image">
+            <img src="erp.png" alt="ERP" class="heading-image"> Enterprise Resource Planning
+        </h2>
+        <nav>
+            <ul>
+                <li class="current-page"><a href="dashboard.php"><img src="dashboard.png" alt="Dashboard icon"> Dashboard</a>
+                </li>
+                <li><a href="inventory.php"><img src="inventory.png" alt="Inventory icon"> Inventory</a></li>
+                <li><a href="add_inventory.php"><img src="inventory.png" alt="Inventory icon"> Add Items</a></li>
+                <li><a href="customer.php"><img src="customer-icon.png" alt="Customer icon"> Customer</a></li>
+                <li><a href="add_customer.php"><img src="customer-icon.png" alt="Customer icon"> Add Customer</a></li>
+                <li><a href="sales.php"><img src="sales.png" alt="Sales icon"> Sales</a></li>
+                <li><a href="add_sale.php"><img src="sales.png" alt="Sales icon">Add Sales</a></li>
+                <li><a href="todo.php"><img src="pending.png" alt="Pending icon"> Pending</a></li>
+                <li><a href="account.html"><img src="account.png" alt="Account icon"> Account</a></li>
+            </ul>
+        </nav>
+        <div class="dash-h3">
+            <h3>Good morning User!</h3>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row1">
+            <div class="col-md-3">
+                <div class="heading-with-image">
+                    <div>
+                        <h1>New Customers this year</h1>
+                        <h2>384</h2>
+                    </div>
+                </div>
+                <div class="heading-with-image">
+                    <div>
+                        <h1>Total Sales this year</h1>
+                        <h2>₱1,405,251.24</h2>
+                    </div>
+                </div>
+                <div class="heading-with-image">
+                    <div>
+                        <h1>Total Profit this year</h1>
+                        <h2>₱189,415.19</h2>
+                    </div>
+            </div>
+            </div>
+            <div class="col-md-6">
+                <div class="heading-with-image1">
+                    <h1>Average Income per month</h1>
+                    <h2>₱29,415.19</h2>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h1>Target Sales this year</h1>
+                <h2>₱102,405,251.24</h2>
+            </div>
+
+        </div>
+        <div class="row2">
+            <div class="col-md-3">
+                <h1>Monthly sales growth</h1>
+                <h2>15%</h2>
+                <h1>Target sales growth</h1>
+                <h2>13%</h2>
+            </div>
+            <div class="col-md-3">
+                <h1>Sales Country Performance</h1>
+                <h2>Philippines 100%</h2>
+            </div>
+            <div class="col-md-6">
+                <h1>Average revenue per Unit</h1>
+                <h2>₱55,351.56</h2>
+                <h1>Average item bought per customer</h1>
+                <h2>9 pcs</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
